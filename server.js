@@ -10,11 +10,11 @@ var csvLib = csv();
 
 
 //Setting the first link to start scrapping
-//var base = 'rentomojo.com';
-//var firstLink = 'http://' + base + '/bangalore/?_escaped_fragment_=/';
+var base = 'rentomojo.com';
+var firstLink = 'http://' + base + '/bangalore/?_escaped_fragment_=/';
 
-var base = 'www.mokriya.com';
-var firstLink = 'http://' + base ;
+//var base = 'www.mokriya.com';
+//var firstLink = 'http://' + base ;
 
 var crawled = [];
 var inboundLinks = [];
