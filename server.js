@@ -13,8 +13,6 @@ var csvLib = csv();
 //var base = 'rentomojo.com';
 //var firstLink = 'http://' + base + '/bangalore/?_escaped_fragment_=/';
 
-
-//http://swachhbharaturban.gov.in/ISNAHome.aspx
 var base = 'www.mokriya.com';
 var firstLink = 'http://' + base ;
 
