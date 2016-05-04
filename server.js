@@ -1,11 +1,10 @@
 var fs = require('fs');
 var url = require('url');
 var csv = require('csv');
-var limit = require("simple-rate-limiter");
 var _ = require('lodash');
 var async = require('async');
 var cheerio = require('cheerio');
-var request = limit(require("request")).to(4).per(1000);
+var request = require("request");
 var csvLib = csv();
 
 
